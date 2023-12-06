@@ -89,7 +89,10 @@ class SocialPage extends StatelessWidget {
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          Icon(Icons.mail_outline_outlined),
+                          Icon(
+                            Icons.mail_outline_outlined,
+                            color: Colors.white,
+                          ),
                           SizedBox(width: 10),
                           Text('EMAIL',
                               style: GoogleFonts.poppins(
@@ -118,7 +121,10 @@ class SocialPage extends StatelessWidget {
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          FaIcon(FontAwesomeIcons.facebook),
+                          FaIcon(
+                            FontAwesomeIcons.facebook,
+                            color: Colors.white,
+                          ),
                           SizedBox(width: 10),
                           Text(
                             'FACEBOOK',
